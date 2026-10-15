@@ -1,0 +1,14 @@
+/Users/isaacau/Documents/_Projects/Illy/Technical/bin/Debug/net10.0/Technical
+/Users/isaacau/Documents/_Projects/Illy/Technical/bin/Debug/net10.0/Technical.deps.json
+/Users/isaacau/Documents/_Projects/Illy/Technical/bin/Debug/net10.0/Technical.runtimeconfig.json
+/Users/isaacau/Documents/_Projects/Illy/Technical/bin/Debug/net10.0/Technical.dll
+/Users/isaacau/Documents/_Projects/Illy/Technical/bin/Debug/net10.0/Technical.pdb
+/Users/isaacau/Documents/_Projects/Illy/Technical/obj/Debug/net10.0/Technical.GeneratedMSBuildEditorConfig.editorconfig
+/Users/isaacau/Documents/_Projects/Illy/Technical/obj/Debug/net10.0/Technical.AssemblyInfoInputs.cache
+/Users/isaacau/Documents/_Projects/Illy/Technical/obj/Debug/net10.0/Technical.AssemblyInfo.cs
+/Users/isaacau/Documents/_Projects/Illy/Technical/obj/Debug/net10.0/Technical.csproj.CoreCompileInputs.cache
+/Users/isaacau/Documents/_Projects/Illy/Technical/obj/Debug/net10.0/Technical.dll
+/Users/isaacau/Documents/_Projects/Illy/Technical/obj/Debug/net10.0/refint/Technical.dll
+/Users/isaacau/Documents/_Projects/Illy/Technical/obj/Debug/net10.0/Technical.pdb
+/Users/isaacau/Documents/_Projects/Illy/Technical/obj/Debug/net10.0/Technical.genruntimeconfig.cache
+/Users/isaacau/Documents/_Projects/Illy/Technical/obj/Debug/net10.0/ref/Technical.dll

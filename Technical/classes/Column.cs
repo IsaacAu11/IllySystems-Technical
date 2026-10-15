@@ -1,5 +1,7 @@
 namespace Illy_Technical_Task;
 
+
+//basic class to show columns for now, should link to the table class
 public class Column
 {
     public string Name { get; }
