@@ -15,6 +15,16 @@ public static class Program
         // honestly not sure how to turn this into an sql query yet...
         //think the base is done though
 
+        // example usage
+        Query query = new Query(table)
+            .Select(col_id, col_name)
+            .AddJoin(join)
+            .SetWhere(new Compare(col_name, Operation.Equal, "Jane"));
 
+        Console.WriteLine(query.ToSql());
+        // output: SELECT Id, Name FROM Users INNER JOIN Users ON Id = 1 WHERE Name = 'Jane'
+
+        // I did use the autocomplete function in vscode to assist in writing this code
+        // i can't run visual studio code on my computer so I'm assuming it runs the same as vscode
     }
 }

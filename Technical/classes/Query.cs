@@ -94,7 +94,7 @@ public class Query
                 joinType = "RIGHT";
                 break;
             default:
-                throw new ArgumentOutOfRangeException(nameof(join));
+                throw new ArgumentOutOfRangeException();
         }
 
         return $"{joinType} JOIN {BuildTableReference(join.Table)} ON {BuildCondition(join.OnCondition)}";
@@ -111,7 +111,7 @@ public class Query
         {
             if (group.Children.Count == 0)
             {
-                throw new ArgumentException("condition group cannot be empty");
+                throw new ArgumentException();
             }
 
             string logic = group.Logic == LogicalOperator.And ? "AND" : "OR";
@@ -125,7 +125,7 @@ public class Query
             return $"({string.Join($" {logic} ", childConditions)})";
         }
 
-        throw new ArgumentException($"unsupported condition: ");
+        throw new ArgumentException();
     }
 
     private string BuildColumnReference(Column column)
